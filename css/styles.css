@@ -1,0 +1,154 @@
+ /* .slide-content .scroller {
+    width: 1024px;
+}
+
+* {
+    border: 1px solid #f00 !important;
+}  */
+
+ * {
+     margin: 0;
+     padding: 0;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     font-size: 10px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+
+ body {
+     width: 100%;
+     font-size: 100%;
+     margin: auto;
+     left: 0;
+     top: 0;
+ }
+
+ ul {
+     margin-left: 20px
+ }
+
+ section {
+     padding-bottom: 2em;
+ }
+
+ .back-amarillo {
+     background-color: #fadb79;
+ }
+
+ .back-azul {
+     background-color: #1a83b8;
+ }
+
+ .texto-amarillo {
+     color: #fadb79;
+ }
+
+ .texto-azul {
+     color: #1a83b8;
+ }
+
+ .color-texto {
+     color: #6d8165;
+ }
+
+ .title-name {
+     font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+     font-weight: bolder;
+     font-size: 6.6em;
+     font-stretch: extra-condensed;
+     line-height: 1em;
+ }
+
+ .subtitle {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 1.6em;
+     letter-spacing: 0.45em;
+     line-height: 1.4em;
+ }
+
+ .title-section {
+     font-family: 'Roboto Condensed', sans-serif;
+     font-size: 2.8em;
+ }
+
+ .texto-section {
+     font-size: 1.4em;
+ }
+
+ .title-inner {
+     font-size: 1.5em;
+     margin-bottom: 0.4em;
+ }
+
+ .padd {
+     padding: 3em;
+ }
+
+ .rotar-vertical {
+     transform: rotate(0deg)
+ }
+
+ .barra {
+     display: none
+ }
+
+ @media (min-width: 768px) {
+     .rotar {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         min-width: 1000px;
+     }
+     .rotar-vertical {
+         transform: translateX(-50%) translateY(-50%) rotate(-90deg)
+     }
+     .title-name {
+         font-size: 12em;
+     }
+     .subtitle {
+         font-size: 2em;
+     }
+     .padd {
+         padding: 4em
+     }
+     .barra {
+         display: inline;
+         font-size: 1em;
+     }
+ }
+
+ @media (min-width: 1440px) {
+     section {
+         padding-bottom: 4em;
+     }
+     .title-name {
+         font-size: 19em;
+         line-height: 1em;
+     }
+     .subtitle {
+         font-size: 3.8em;
+         letter-spacing: 0.35em;
+         line-height: 2.3em;
+     }
+     .title-section {
+         font-size: 5em;
+     }
+     .texto-section {
+         font-size: 2.2em;
+     }
+     .title-inner {
+         font-size: 2.2em;
+         margin-bottom: 0.8em;
+     }
+     .padd {
+         padding: 7em;
+     }
+     .rotar {
+         min-width: 1700px;
+     }
+     .barra {
+         font-size: 1em;
+     }
+ }
